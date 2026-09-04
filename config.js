@@ -1,0 +1,4 @@
+// ISI DUA NILAI INI DARI PROJECT SUPABASE ANDA
+const SUPABASE_URL = "https://PROJECT_ID.supabase.co";
+const SUPABASE_ANON_KEY = "PASTE_ANON_KEY_DI_SINI";
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
